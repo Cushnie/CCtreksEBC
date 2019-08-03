@@ -27,4 +27,19 @@ So now I've created a new Vue app and managed to get a few things going. I've be
 
 1038h
 I have managed to get a picture up & put two independent vue pages on there. I've made progress for the layout. But now comes the hard part. Populating the blog entries & getting the API linked up with the cities so a reader doesn't have to enter in all the information. Also want to add the map of my trek and need Google Analytics. Other than that, not bad progress for the last few hours. (oh and the jackhammering outside was no help ...)
+
+1624h
+I think I need to quit for the day. Things are getting a bit out of control. What I need to do:
+-Set up blog template to include text and weather
+-Figure out how to have the weather API call out to the cities named in the blog entry
+-Organize all the components
+-Create a JSON file with all the text & weather info
+
+Things I did:
+-Create a blog template of sorts
+-Find all the individual city IDs for the cities on the trek
+-Copied the JSON data from Postman to text files for reference when creating weather data calls from the API
+-Added an API.js
+-Discovered I don't know how to do router links
+-Made good enough progress to walk away today
  
