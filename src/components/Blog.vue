@@ -1,9 +1,10 @@
 <template>
   <div class="blog">
-<h3>My Journey</h3>
+    <h3>My Journey</h3>
     <ul>
-      <li v-for="blog in blogs">>{{ blog }}</li>
+      <li v-for="blog in blogs">{{ blog }}</li>
     </ul>
+
   </div>
 </template>
 
@@ -13,17 +14,24 @@ export default {
   data() {
     return {
       blogs: [
-        "Day 1 - Lukla to Phakding",
-        "Day 2 - Phakding to Namche Bazaar",
-        "Day 3 - We rest & find our breath",
-        "Day 4 - Namche Bazaar to Tengboche",
-        "Day 5 - Tengboche to Dingboche",
-        "Day 6 - Dingboche to Lobuche",
-        "Day 7 - EBC",
-        "Day 8 - Gorak Shep to Pheriche",
-        "Day 9 - Pheriche to Namche Bazaar",
-        "Day 10 - Namche Bazaar to Lukla",
-        "Day 11 - Back to Kathmandu"
+        "|","Day 1: Sleeping in airports",
+        "|","Day 2: Flying across the International Date Line",
+        "|","Days 3 & 4: Namaste, Kathmandu",
+        "|","Day 4: Gotta go down before you go up",
+        "|","Day 5: The long slog up",
+        "|","Day 6: We rest & find our breath",
+        "|","Day 7: Have Diamox, will trek",
+        "|","Day 8: Himalayan sunsets",
+        "|","Day 9: Of course it's snowing",
+        "|","Day 10: EBC!!!",
+        "|","Day 11: The first long day down",
+        "|","Day 10: Are we there yet?",
+        "|","Day 11: What goes down, must go up",
+        "|","Day 12: Waiting in airports",
+        "|","Day 13: Spa day & cultural night",
+        "|","Day 14: Happy birthday to me",
+        "|","Day 15: Welcome to the USA", 
+        "|"
       ]
     };
   }
@@ -32,6 +40,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.blog {
+  background: #bbd3df;
+    max-height: 750px;
+  }
+
 h3 {
   margin: 40px 0 0;
 }

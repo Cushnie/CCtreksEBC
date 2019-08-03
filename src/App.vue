@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <img alt="EBC" src="./assets/EBCGroup.jpg" width="640" height="420">
-    <HelloWorld msg="Namaste!"/>
-    <Blog/>
+
+  <HelloWorld msg="Namaste!"/>
+<Blog />
+    
+
   </div>
 </template>
 
