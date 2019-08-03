@@ -24,4 +24,7 @@ Got a little ahead of myself and decided to pretty much destroy the original Boo
 STARTING OVER. Oy vey ... It was a disaster and I am starting over. Thank you Becky for your guidance. Seriously, if it wasn't for her, I doubt I would've been able to progress past CSS. 
 
 So now I've created a new Vue app and managed to get a few things going. I've been reviewing our materials from last quarter as a refresher and it's helped. The challenge for me is that I'm trying to do all the things and not focusing on the important parts of what's required to pass. For those of you in the future reading this: JUST FOCUS ON THE REQUIREMENTS. WORRY ABOUT THE PRETTY LATER. Translation: DON'T DO WHAT I'VE DONE.  
+
+1038h
+I have managed to get a picture up & put two independent vue pages on there. I've made progress for the layout. But now comes the hard part. Populating the blog entries & getting the API linked up with the cities so a reader doesn't have to enter in all the information. Also want to add the map of my trek and need Google Analytics. Other than that, not bad progress for the last few hours. (oh and the jackhammering outside was no help ...)
  
