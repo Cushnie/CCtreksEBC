@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": 86.82,
+        "lat": 27.89
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 275.52,
+        "pressure": 1006.95,
+        "humidity": 93,
+        "temp_min": 275.52,
+        "temp_max": 275.52,
+        "sea_level": 1006.95,
+        "grnd_level": 546.08
+    },
+    "wind": {
+        "speed": 0.34,
+        "deg": 313.322
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1564870471,
+    "sys": {
+        "message": 0.0058,
+        "country": "NP",
+        "sunrise": 1564875402,
+        "sunset": 1564923658
+    },
+    "timezone": 20700,
+    "id": 1282758,
+    "name": "Pheriche",
+    "cod": 200
+}

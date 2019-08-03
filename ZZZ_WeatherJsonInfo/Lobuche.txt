@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": 86.81,
+        "lat": 27.95
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 275.52,
+        "pressure": 1006.95,
+        "humidity": 93,
+        "temp_min": 275.52,
+        "temp_max": 275.52,
+        "sea_level": 1006.95,
+        "grnd_level": 546.08
+    },
+    "wind": {
+        "speed": 0.34,
+        "deg": 313.322
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1564870416,
+    "sys": {
+        "message": 0.0061,
+        "country": "NP",
+        "sunrise": 1564875398,
+        "sunset": 1564923667
+    },
+    "timezone": 20700,
+    "id": 1283011,
+    "name": "Lobuche",
+    "cod": 200
+}

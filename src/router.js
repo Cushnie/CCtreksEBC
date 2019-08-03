@@ -11,17 +11,17 @@ export default new Router({
     {
     path: '/',
     name: 'HelloWorld',
-    component: HelloWorld,
+    component: HelloWorld
     },
     {
       path: '/',
       name: 'Blog',
-      component: Blog,
+      component: Blog
     },
     {
       path: '/',
       name: 'Gallery',
-      component: Gallery,
+      component: Gallery
     }
 
   ]

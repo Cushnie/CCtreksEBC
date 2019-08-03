@@ -1,19 +1,43 @@
 <template>
   <div class="component">
     <h2>{{ message }}</h2>
+    <h4>{{ weather }}</h4>
   </div>
+
+
+
+  
 </template>
 
 <script>
-import axios from axios;
+import {API} from '@/common/api.js';
 
 export default {
-    data () {
-      return {
-        message: 'This component works.'
-      }
+  name: 'CitySearch',
+  data () {
+    return {
+      results: null,
+      errors: [],
+      query: ''
+    }
+  },
+  methods: {
+    getCities: function () {
+      API.get('find', {
+        params: {
+            q: this.query,
+            units: 'imperial'
+        }
+      })
+      .then(response => {
+        this.results = response.data
+      })
+      .catch(error => {
+        this.errors.push(error)
+      });
     }
   }
+}
 </script>
 
 <style scoped>
