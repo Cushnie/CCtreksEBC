@@ -4,6 +4,7 @@
   <HelloWorld msg="Namaste!"/>
 <Blog />
     
+    <Gallery />
 
   </div>
 </template>
@@ -11,12 +12,14 @@
 <script>
 import HelloWorld from './components/HelloWorld.vue'
 import Blog from './components/Blog.vue'
+import Gallery from './components/Gallery'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
-    Blog
+    Blog,
+    Gallery
   }
 }
 </script>
