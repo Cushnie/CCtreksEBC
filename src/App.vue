@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="EBC" src="./assets/EBCGroup.jpg" width="640" height="420">
     <HelloWorld msg="Namaste!"/>
+    <Blog/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Blog from './components/Blog.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    HelloWorld,
+    Blog
   }
 }
 </script>
