@@ -1,0 +1,22 @@
+    <b>Fun facts:</b>
+    <ul>
+      <li>
+        <b>Elevation of Everest Base Camp: 17,600ft/5,380m</b>
+      </li>
+      <li>
+        <b>Elevation of Mt. Everest: 29,029ft/8,848m</b>
+      </li>
+      <li>
+        Everest is known as
+        <i>Sagarmatha</i> in Nepalese,
+        <i>Chomolungma</i> in Tibetan, and
+        <i>Zhumulangma</i> in Chinese
+      </li>
+      <li>I raised over $5,000 for the Leukemia & Lymphoma Society for this adventure.</li>
+      <li>You have to check into the national park as well as check out.</li>
+      <li>The world's highest bar is in Namche Bazaar and is aptly named The Irish Bar.</li>
+      <li>There are three types of pack animals on the trails: donkeys, dzo, and yaks.</li>
+      <li>I didn't eat yak meat.</li>
+      <li>Dzo are a cross between a cow and a yak and can't go above a certain elevation because of altitude sickness.</li>
+      <li>I survived the world's most dangerous aiport.</li>
+    </ul>

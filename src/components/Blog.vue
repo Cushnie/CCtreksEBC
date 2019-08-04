@@ -1,10 +1,31 @@
 <template>
   <div class="blog">
+    
     <h3>My Journey</h3>
     <ul>
       <li v-for="blog in blogs">{{ blog }}</li>
     </ul>
+    <!-- Router Links -->
+    <div class="container">
+      <div class="card border-0 shadow">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">
+            <router-link to="/Gallery">Pictures</router-link>
+          </h5>
+          <div class="card-text text-black-50">see the sights</div>
+        </div>
+      </div>
 
+      <div class="card border-0 shadow">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">
+            <router-link to="/">Home</router-link>
+          </h5>
+          <div class="card-text text-black-50">Go back to the beginning</div>
+        </div>
+      </div>
+    </div>
+    <!-- End Router Links -->
   </div>
 </template>
 
@@ -40,9 +61,9 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .blog {
-  background: #bbd3df;
-    max-height: 750px;
-  }
+  background: #ffffff
+  
+}
 
 h3 {
   margin: 40px 0 0;
@@ -56,6 +77,6 @@ li {
   margin: 0 10px;
 }
 a {
-  color: #42b983;
+  color: #000000;
 }
 </style>
