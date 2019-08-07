@@ -44,7 +44,7 @@ export default {
   methods: {
     getPost: function(blog) {
       console.log(blog);
-      this.$router.push({ name: "Blog", params: { blog } });
+      this.$router.push({ name: "Post", params: { blog } });
     }
   }
 };

@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h5>In April 2018, I was part of the inaugural Climb2Cure team to go to Everest Base Camp (EBC) in the Nepalese Himalayas. It was an amazing experience and definitely one of the hardest things I've ever done. But the experience was truly a once in a lifetime experience and it definitely took my breath away in more ways than one.</h5>
-
+<!-- https://github.com/vimeo/player.js/issues/420 -->
     <header>
       <iframe
         title="vimeo-player"
