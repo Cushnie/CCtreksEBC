@@ -45,7 +45,7 @@ Things I did:
 
 # 2019-08-04
 1042h
-I was awake at 0300h thinking about how to do the API call in my blog posts. So I decided to research how this would be possible. Fortunately for me, most of the cities I want to use for my call outs are very individualized so I could create an ID for each one. And as I would be repeating them in some of the posts it would be easier to have them in one spot. So I researched the city IDs, got them, created a text file of them, and got to work on making the router links work. They were not working. Then I discovered I had some kind of caching problem. Which then took me about 1.5hrs to troubleshoot but I got it to work. It looks like I was missing an install command of sorts with `npm`. Once I got that to load, I was able to drop in some Bootstrap templates & format the 3 pages I wanted. The images and blog entries still have placeholders - I want to create a blog post template of sorts so that I can quickly populate the API call & show the weather in the cities of the corresponding trek days. That will be my next major thing to do. Hopefully I can create a plan of attack with Becky's guidance on Tuesday if I can't figure something out today or tomorrow.
+I was awake at 0300h thinking about how to do the API call in my blog posts. So I decided to research how this would be possible. Fortunately for me, most of the cities I want to use for my call outs are very individualized so I could create an ID for each one. And as I would be repeating them in some of the posts it would be easier to have them in one spot. So I researched the city IDs, got them, created a text file of them, and got to work on making the router links work. They were not working. Then I discovered I had some kind of caching problem. Which then took me about 1.5hrs to troubleshoot but I got it to work. It looks like I was missing an install command of sorts with `npm`. Once I got that to load, I was able to drop in some Bootstrap templates & format the 3 pages I wanted. The images and blog entries still have placeholders - I want to create a blog post template of sorts so that I can quickly populate the API call & show the weather in the cities of the corresponding trek days. That will be my next major thing to do. Hopefully I can create a plan of attack with Becky's guidance on T-uesday if I can't figure something out today or tomorrow.
 
 Things I did - 
 -Debug and figure out what I did wrong on the caching side of things
@@ -62,6 +62,10 @@ Things I need to:
 Optional:
 -Edit the videos I took on my camera and load to a YouTube channel
     *There is a lot of me woohooing on these videos as well as wind noise
+
+# 2019-08-06
+01959h
+Spent all lab working on coding out & getting some progress made on the blog and how to hand off the data. Can't seem to find a way to make the buttons click & take me to the next section. Becky helped with getting the props set up but still have a ways to go. 
 
     
  
