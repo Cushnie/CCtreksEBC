@@ -2,18 +2,18 @@ export default [
 
     {
         'title': '| Day 1: Sleeping in airports |',
-        'from-city': 'Seattle',
-        'from-id': 'xxx',
-        'to-city': 'Vancouver',
-        'to-id': 'xxx'
+        'from_city': 'Seattle',
+        'from_id': '1283113',
+        'to_city': 'Vancouver',
+        'to_id': '1283113'
     },
 
     {
         title: '| Day 2: Flying across the International Date Line |',
-        'from-city': 'Vancouver',
-        'from-id': 'xxx',
-        'to-city': 'Guangzhou',
-        'to-id': 'xxx'
+        'from_city': 'Vancouver',
+        'from_id': '1283113',
+        'to_city': 'Guangzhou',
+        'to_id': '1283113'
     }
 
 ]
