@@ -67,5 +67,10 @@ Optional:
 01959h
 Spent all lab working on coding out & getting some progress made on the blog and how to hand off the data. Can't seem to find a way to make the buttons click & take me to the next section. Becky helped with getting the props set up but still have a ways to go. 
 
+#2019-08-15
+1822h
+Took some time off and well, I think I'm paying for it. Becky was kind enough to help review some of my code & see what we needed to do. This has helped alleviate some of the anxiety. Now the hard part is drafting the blog entries and getting the buttons to work as well as the weather call outs. 
+
+
     
  
