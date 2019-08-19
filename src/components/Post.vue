@@ -3,10 +3,10 @@
     <div class="text">Namaste</div>
 <div class="entry">
     
-    <div v-if="blog">
-      <weather :id="blog.from_id"></weather>
-      <weather :id="blog.to_id"></weather>
-    </div>
+    <!-- <div v-if="blog !== null"> -->
+      <weather v-if="blog" :id="blog.from_id"></weather>
+      <weather v-if="blog" :id="blog.to_id"></weather>
+    <!-- </div> -->
     <div class="cities"></div>
   </div>
       <!-- Router Links -->
@@ -42,7 +42,7 @@
 
 
 <script>
-import axios from "axios";
+// import axios from "axios";
 import Weather from "@/components/Weather";
 
 export default {
@@ -62,43 +62,18 @@ export default {
 
     };
   },
-  created() {
+
+ created: function() {
     this.blog = this.$route.params.blog;
     console.log(this.blog);
     //get first weather
-    this.fromId = this.blog.from_id;
-    console.log(this.fromId);
-    this.toId = this.blog.to_id;
-    console.log(this.toId)
+    // this.fromId = this.blog.from_id;
+    // console.log(this.fromId);
+    // this.toId = this.blog.to_id;
+    // console.log(this.toId)
+  },
 
-    // axios
-    //   .get("//api.openweathermap.org/data/2.5/weather", {
-    //     params: {
-    //       id: this.blog.from_id,
-    //       APPID: "883942609bd04e6ecf2a33c7ab270cbb"
-    //     }
-    //   })
-    //   .then(response => {
-    //     this.weather = response.data;
-    //     console.log(this.weather);
-    //   })
-    //   .catch(e => {
-    //     this.errors.push(e);
-    //   });
-    // axios
-    //   .get("//api.openweathermap.org/data/2.5/weather", {
-    //     params: {
-    //       id: this.blog.to_id,
-    //       APPID: "883942609bd04e6ecf2a33c7ab270cbb"
-    //     }
-    //   })
-    //   .then(response => {
-    //     this.weather = response.data;
-    //     console.log(this.weather);
-    //   })
-    //   .catch(e => {
-    //     this.errors.push(e);
-    //   });
-  }
+
+  
 }
 </script>
