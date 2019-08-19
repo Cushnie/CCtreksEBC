@@ -1,11 +1,13 @@
 <template>
   <div class="blog">
     <h3>My Journey</h3>
+    <p></p>
     <ul>
       <li v-for="(blog,index) in blogs" :key="index">
         <button v-on:click="getPost(blog)">{{ blog.title }}</button>
       </li>
     </ul>
+
 
     <!-- Router Links -->
     <div class="container">

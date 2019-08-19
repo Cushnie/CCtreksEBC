@@ -7,7 +7,7 @@
           <a href="#" class="d-block mb-4 h-100">
             <img
               class="img-fluid img-thumbnail"
-              src="../assets/gallery/IMG_7760.JPG"
+              src="../assets/EBCGroup.jpg"
               alt
             />
           </a>

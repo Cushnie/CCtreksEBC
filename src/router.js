@@ -4,7 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import Blog from '@/components/Blog'
 import Gallery from '@/components/Gallery'
 import Post from '@/components/Post'
-import Weather from '@/components/Weather'
+
 
 Vue.use(Router)
 
@@ -29,12 +29,6 @@ export default new Router({
       path: '/Post',
       name: 'Post',
       component: Post
-    },
-    {
-      path: '/Weather',
-      name: 'Weather',
-      component: Weather
     }
-
   ]
 })
