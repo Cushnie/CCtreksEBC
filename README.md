@@ -67,10 +67,14 @@ Optional:
 01959h
 Spent all lab working on coding out & getting some progress made on the blog and how to hand off the data. Can't seem to find a way to make the buttons click & take me to the next section. Becky helped with getting the props set up but still have a ways to go. 
 
-#2019-08-15
+# 2019-08-15
 1822h
 Took some time off and well, I think I'm paying for it. Becky was kind enough to help review some of my code & see what we needed to do. This has helped alleviate some of the anxiety. Now the hard part is drafting the blog entries and getting the buttons to work as well as the weather call outs. 
 
+# 2019-08-18
+1833h
+API is not working and it's probably because I am not calling it out properly. I am doing a review of props & components as Becky suggested that I make the weather part of this as a component. I think this will work. One thing that I'm thinking I might do as a last resort is create a weather component that allows the reader to type in the name of the city and crib the code from a previous assignment. This might be a good thing as it would engage the reader a little more with the blog post. I'm going to explore this further and see if this would be a viable option. Given that I have only two weeks to make this work, I want to be able to have some kind of deliverable that fulfills all the requirements. 
 
+Also, I added Google Analytics to my website so that I can start tracking that information. And as for accessability, I don't want to get too fancy with the colors and such as I want it to be easy to read and simple. I like the font I'm using but still need to run some tests to see if it works well or if I should consider using Arial or maybe even a serif font like Times New Roman. That will need to be done this week. 
     
  
