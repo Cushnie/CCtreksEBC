@@ -7,7 +7,7 @@
           <a href="#" class="d-block mb-4 h-100">
             <img
               class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/pWkk7iiCoDM/400x300"
+              src="../assets/gallery/IMG_7760.JPG"
               alt
             />
           </a>
@@ -16,7 +16,7 @@
           <a href="#" class="d-block mb-4 h-100">
             <img
               class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/aob0ukAYfuI/400x300"
+              src=""
               alt
             />
           </a>

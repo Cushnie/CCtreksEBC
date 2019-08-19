@@ -9,6 +9,34 @@
     </div>
     <div class="cities"></div>
   </div>
+      <!-- Router Links -->
+    <div class="container">
+      <div class="card border-0 shadow">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">
+            <router-link to="/Blog">Blog</router-link>
+          </h5>
+          <div class="card-text text-black-50">Read about my adventures</div>
+        </div>
+      </div>
+       <div class="card border-0 shadow">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">
+            <router-link to="/Gallery">Pictures</router-link>
+          </h5>
+          <div class="card-text text-black-50">see the sights</div>
+        </div>
+      </div>
+      <div class="card border-0 shadow">
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">
+            <router-link to="/">Home</router-link>
+          </h5>
+          <div class="card-text text-black-50">Go back to the beginning</div>
+        </div>
+      </div>
+    </div>
+    <!-- End Router Links -->
   </div>
 </template>
 
