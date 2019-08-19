@@ -120,6 +120,6 @@ export default [
         'from_id': '6173331',
         'to_city': 'Seattle',
         'to_id': '5809844'
-    },
+    }
 ]
 

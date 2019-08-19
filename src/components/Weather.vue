@@ -8,23 +8,26 @@
         <dt>High</dt>
         <dd>{{ weatherData.temp_max }}&deg;F</dd>
         <dt>Low</dt>
-    <dd>{{ weatherData.temp_min }}&deg;F</dd>-->
+    <dd>{{ weatherData.temp_min }}&deg;F</dd> -->
   </div>
 </template>
 
 <script>
+// import axios from "axios";
+
 export default {
   name: "Weather",
   data() {
     return {
-      id: ""
+      from_id: '',
+      to_id: ''
     };
   },
   created() {
-    console.log(this.id);
+    console.log(this.from_id);
   },
   props: {
-    id: String
+    from_id: String
   }
 };
 </script>

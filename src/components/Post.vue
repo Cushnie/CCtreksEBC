@@ -1,12 +1,14 @@
 <template>
   <div class="post">
     <div class="text">Namaste</div>
-
-    <div class="cities"></div>
+<div class="entry">
+    
     <div v-if="blog">
-      <!-- <weather :id="blog.from_id"></weather> -->
-      <!-- <weather :id="blog.to_id"></weather> -->
+      <weather :id="blog.from_id"></weather>
+      <weather :id="blog.to_id"></weather>
     </div>
+    <div class="cities"></div>
+  </div>
   </div>
 </template>
 
@@ -27,8 +29,8 @@ export default {
       errors: [],
       blog: null,
       weather: null,
-      fromId: "",
-      toId: ""
+      fromId: '',
+      toId: ''
 
     };
   },
@@ -70,5 +72,5 @@ export default {
     //     this.errors.push(e);
     //   });
   }
-};
+}
 </script>
