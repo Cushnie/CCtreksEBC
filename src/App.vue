@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1>Colleen Treks EBC</h1>
+    <h1><router-link to="/" >Colleen Treks EBC</router-link></h1>
 
     <router-view />
   </div>
