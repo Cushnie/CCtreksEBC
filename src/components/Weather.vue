@@ -1,21 +1,15 @@
 <template>
   <div>
-    <div>{{id}}</div>
-    <div>{{weatherData}}</div>
-    <h3>What's up in the sky?</h3>
-    <!-- <dl>
-      <dt v-if="weatherData !== null">Current Temp</dt>
-      <dd >{{ weatherData.temp }}&deg;F</dd>
+    <div>{{name}}</div>
+    <div>{{weatherData}}
+<div class="results" v-if="weatherData">
+ <p>{{weatherData.main}}</p>
+ <p>{{weatherData.temp}}</p>
       
-      <dt>Humidity</dt>
-      <dd>{{ weatherData.humidity }}%</dd>
-      
-      <dt>High</dt>
-      <dd>{{ weatherData.temp_max }}&deg;F</dd>
-      
-      <dt>Low</dt>
-      <dd>{{ weatherData.temp_min }}&deg;F</dd>
-    </dl> -->
+    </div>
+</div>
+
+
   </div>
 </template>
 

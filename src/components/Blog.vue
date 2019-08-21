@@ -16,7 +16,7 @@
           <h5 class="card-title mb-0">
             <router-link to="/Gallery">Pictures</router-link>
           </h5>
-          <div class="card-text text-black-50">see the sights</div>
+          <div class="card-text text-black-50">See the sights</div>
         </div>
       </div>
 
