@@ -103,13 +103,13 @@ export default [
         'from_city': 'Namche Bazaar',
         'from_id': '1283001',
         'to_city': 'Lukla',
-        'to_id': '1282758',
+        'to_id': '1283113',
         'entry': 'type type type type type type'
     },
     {
         'title': 'Day 14: Waiting in airports',
         'from_city': 'Lukla',
-        'from_id': '1282758',
+        'from_id': '1283113',
         'to_city': 'Kathmandu',
         'to_id': '1283240',
         'entry': 'type type type type type type'

@@ -1,25 +1,26 @@
 <template>
   <div class="post">
     <div class="cities" v-if="blog">
-      <!-- <div v-if="blog !== null"> -->
-      <h2>
+      <div v-if="blog !== null">
         <weather v-if="blog" :id="blog.title"></weather>
-      </h2>
-      <h5>
-        <weather v-if="blog" :id="blog.from_city"></weather>
-        <weather v-if="blog" :id="blog.from_id"></weather>
+        <b-container class="bv-example-row">
+          <b-row>
+            <b-col>
+              <u>Depart</u>
+              <weather v-if="blog" :id="blog.from_city"></weather>
+              <weather v-if="blog" :id="blog.from_id"></weather>
+            </b-col>
+            <b-col>
+              <u>Arrive</u>
+              <weather v-if="blog" :id="blog.to_city"></weather>
+              <weather v-if="blog" :id="blog.to_id"></weather>
+            </b-col>
+          </b-row>
+        </b-container>
 
-        <p></p>
-        <weather v-if="blog" :id="blog.to_city"></weather>
-        <weather v-if="blog" :id="blog.to_id"></weather>
-      </h5>
-      <p>
         <weather v-if="blog" :id="blog.entry"></weather>
-      </p>
-
-      <!-- </div> -->
+      </div>
     </div>
-    <div class="entry"></div>
     <!-- Router Links -->
     <div class="container">
       <div class="card border-0 shadow">
