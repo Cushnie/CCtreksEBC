@@ -81,4 +81,7 @@ API is not working and it's probably because I am not calling it out properly. I
 
 Also, I added Google Analytics to my website so that I can start tracking that information. And as for accessability, I don't want to get too fancy with the colors and such as I want it to be easy to read and simple. I like the font I'm using but still need to run some tests to see if it works well or if I should consider using Arial or maybe even a serif font like Times New Roman. That will need to be done this week. 
     
+ # 2019-08-22 
+ 2319h
  
+ I got the API to work and figured out how to put my data where I needed it. Small victories! Now to work on having the title come up & put some text down. Also want to figure out how to put the blog entry itself on the same page as the buttons. I'll see what I can do this weekend. 

@@ -39,21 +39,21 @@ export default [
         'from_city': 'Phakding',
         'from_id': '1282758',
         'to_city': 'Namche Bazaar',
-        'to_id': '1283001',
+        'to_id': '1283011',
         'entry': 'type type type type type type'
     },
     {
         'title': 'Day 6: We rest & find our breath',
         'from_city': 'Namche Bazaar',
-        'from_id': '1283001',
+        'from_id': '1283011',
         'to_city': 'Namche Bazaar',
-        'to_id': '1283001',
+        'to_id': '1283011',
         'entry': 'type type type type type type'
     },
     {
         'title': 'Day 7: Have Diamox, will trek',
         'from_city': 'Namche Bazaar',
-        'from_id': '1283001',
+        'from_id': '1283011',
         'to_city': 'Dingboche',
         'to_id': '1283437',
         'entry': 'type type type type type type'
@@ -71,13 +71,13 @@ export default [
         'from_city': 'Tengboche',
         'from_id': '1282670',
         'to_city': 'Lobuche',
-        'to_id': '1283011',
+        'to_id': '1282758',
         'entry': 'type type type type type type'
     },
     {
         'title': 'Day 10: EBC!!!',
         'from_city': 'Lobuche',
-        'from_id': '1283011',
+        'from_id': '1282758',
         'to_city': 'Gorak Shep',
         'to_id': '1282670',
         'entry': 'type type type type type type'
@@ -95,13 +95,13 @@ export default [
         'from_city': 'Pheriche',
         'from_id': '1282758',
         'to_city': 'Namche Bazaar',
-        'to_id': '1283001',
+        'to_id': '1283011',
         'entry': 'type type type type type type'
     },
     {
         'title': 'Day 13: What goes down, must go up',
         'from_city': 'Namche Bazaar',
-        'from_id': '1283001',
+        'from_id': '1283011',
         'to_city': 'Lukla',
         'to_id': '1283113',
         'entry': 'type type type type type type'
