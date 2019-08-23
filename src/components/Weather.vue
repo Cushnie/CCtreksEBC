@@ -1,13 +1,7 @@
 <template>
   <div>
-    <div>{{name}}</div>
-    <div>{{weatherData}}
-<div class="results" v-if="weatherData">
- <p>{{weatherData.main}}</p>
- <p>{{weatherData.temp}}</p>
-      
-    </div>
-</div>
+    <div>{{id}}</div>
+    <div>{{weatherData}}</div>
 
 
   </div>

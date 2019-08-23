@@ -1,10 +1,22 @@
 <template>
   <div class="post">
-    <div class="cities">
+    <div class="cities" v-if="blog">
       <!-- <div v-if="blog !== null"> -->
-        
-      <weather v-if="blog" :id="blog.from_id"></weather>
-      <weather v-if="blog" :id="blog.to_id"></weather>
+      <h2>
+        <weather v-if="blog" :id="blog.title"></weather>
+      </h2>
+      <h5>
+        <weather v-if="blog" :id="blog.from_city"></weather>
+        <weather v-if="blog" :id="blog.from_id"></weather>
+
+        <p></p>
+        <weather v-if="blog" :id="blog.to_city"></weather>
+        <weather v-if="blog" :id="blog.to_id"></weather>
+      </h5>
+      <p>
+        <weather v-if="blog" :id="blog.entry"></weather>
+      </p>
+
       <!-- </div> -->
     </div>
     <div class="entry"></div>
@@ -41,7 +53,6 @@
 
 
 <script>
-
 import Weather from "@/components/Weather";
 
 export default {
@@ -64,7 +75,6 @@ export default {
   created: function() {
     this.blog = this.$route.params.blog;
     console.log(this.blog);
-
   }
 };
 </script>
