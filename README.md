@@ -85,3 +85,11 @@ Also, I added Google Analytics to my website so that I can start tracking that i
  2319h
  
  I got the API to work and figured out how to put my data where I needed it. Small victories! Now to work on having the title come up & put some text down. Also want to figure out how to put the blog entry itself on the same page as the buttons. I'll see what I can do this weekend. 
+
+#2019-08-25
+
+0828h
+I didn't get to do too much work on my page this week as I was focusing on the professional development class & trying to play catch up. Today I have my mock phone screen with Kat and then the big focus will be doing what I can to get the title & blog body text to render on the page. I had it earlier but then lost it when I was moving some stuff around while working on putting my weather data together. 
+
+0847h
+I figured out how to get my text & title on the post page so we're making some good progress. Now to get the weather icon picture set up as well as figure out how to get the Post.vue stuff to show up on the Blog.vue page so that the buttons to all the entries stay there & the user doesn't have to always click the "Blog" button at the bottom of the page. I know there's a way to do it & I'm reviewing my code from last quarter to see how I did it with my happy hour drink finder. I know this can be done!!! 

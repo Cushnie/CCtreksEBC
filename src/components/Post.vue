@@ -1,25 +1,26 @@
 <template>
   <div class="post">
+    <div class="title" v-if="blog">
+   <h3> {{ blog.title }} </h3>
+    </div>
     <div class="cities" v-if="blog">
       <div v-if="blog !== null">
-        <weather v-if="blog" :id="blog.title"></weather>
-        <b-container class="bv-example-row">
-          <b-row>
-            <b-col>
+             
               <u>Depart</u>
               <weather v-if="blog" :id="blog.from_city"></weather>
               <weather v-if="blog" :id="blog.from_id"></weather>
-            </b-col>
-            <b-col>
+            <p></p>
               <u>Arrive</u>
               <weather v-if="blog" :id="blog.to_city"></weather>
               <weather v-if="blog" :id="blog.to_id"></weather>
-            </b-col>
-          </b-row>
-        </b-container>
+            
 
         <weather v-if="blog" :id="blog.entry"></weather>
       </div>
+      
+      <div class="words" v-if="blog">
+{{ blog.entry }}
+    </div>
     </div>
     <!-- Router Links -->
     <div class="container">
@@ -69,7 +70,8 @@ export default {
       blog: null,
       weather: null,
       fromId: "",
-      toId: ""
+      toId: "",
+      title: ""
     };
   },
 
