@@ -6,7 +6,7 @@ export default [
         'from_id': '5809844',
         'to_city': 'Vancouver',
         'to_id': '6173331',
-        'entry': 'type type type type type type'
+        'entry': 'I had a late night flight out of Seattle to Vancouver, BC where I discovered that if your flight has more than a 12-hour layover, you do not get to stay in the international gated security area. Your bags can stay but you get the pleasure of hanging out in the ticketing area. Only because I did not have a boarding pass for my next flight. There went that hope of sleeping next to the Vancouver Aquarium display. Yes I wanted to sleep with the fishes.'
     },
 
     {

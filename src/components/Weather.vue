@@ -6,7 +6,7 @@
     <!-- <p></p>
     img.icon(v-bind:src="'https://openweathermap.org/img/wn/' + {{weatherData.weather.icon}} + '.png'" -->
     <p></p>
-    {{weatherData.weather.icon}}
+    {{weatherData.weather.main}}
     Low: {{weatherData.main.temp_min}}&#8457; High: {{weatherData.main.temp_max}}&#8457;
     <p></p>
     Lat: {{weatherData.coord.lat}}&#176; Lon: {{weatherData.coord.lon}}&#176;

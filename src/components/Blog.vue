@@ -2,35 +2,23 @@
   <div class="blog">
     <h3>My Journey</h3>
     <p></p>
+        
     <ul>
       <li v-for="(blog,index) in blogs" :key="index">
         <button v-on:click="getPost(blog)">{{ blog.title }}</button>
       </li>
     </ul>
 
+<ul>
+
+      <li>
+        <button>
+          <router-link to="/Gallery">Pictures</router-link>
+        </button>
+      </li>
+    </ul>
 
 
-    <!-- Router Links -->
-    <div class="container">
-      <div class="card border-0 shadow">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">
-            <router-link to="/Gallery">Pictures</router-link>
-          </h5>
-          <div class="card-text text-black-50">See the sights</div>
-        </div>
-      </div>
-
-      <div class="card border-0 shadow">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">
-            <router-link to="/">Home</router-link>
-          </h5>
-          <div class="card-text text-black-50">Go back to the beginning</div>
-        </div>
-      </div>
-    </div>
-    <!-- End Router Links -->
   </div>
 </template>
 
@@ -50,6 +38,7 @@ export default {
        this.$router.push({ name: "Post", params: { blog } });
     }
   }
+
 };
 </script>
 

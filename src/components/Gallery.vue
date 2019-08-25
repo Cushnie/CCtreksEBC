@@ -1,139 +1,28 @@
 <template>
   <div class="gallery">
-    <div class="container">
-      <hr class="mt-2 mb-5" />
-      <div class="row text-center text-lg-left">
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="../assets/EBCGroup.jpg"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src=""
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/EUfxH-pze7s/400x300"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/M185_qYH8vg/400x300"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/sesveuG_rNo/400x300"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/AvhMzHwiE_0/400x300"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/2gYsZUmockw/400x300"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/EMSDtjVHdQ8/400x300"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/8mUEy0ABdNE/400x300"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/G9Rfc1qccH4/400x300"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/aJeH0KcFkuc/400x300"
-              alt
-            />
-          </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img
-              class="img-fluid img-thumbnail"
-              src="https://source.unsplash.com/p2TQ-3Bh3Oo/400x300"
-              alt
-            />
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Router Links -->
-    <div class="container">
-      <div class="card border-0 shadow">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">
-            <router-link to="/Blog">Blog</router-link>
-          </h5>
-          <div class="card-text text-black-50">Read about my adventures</div>
-        </div>
-      </div>
+    <ul>
+      <li>
+        <img src="../assets/EBCGroup.jpg" alt="We made it!" width="600" height="450" />
+      </li>
+      <!-- <li>
+        <img src="../assets/IMG_7805.JPG" alt="Welcome to Kathmandu" width="600" height="450" />
+      </li> -->
+      <!-- <li>
+        <img src="../assets/IMG_8028.JPG" alt="EBC Panorama"></li> -->
+    </ul>
 
-      <div class="card border-0 shadow">
-        <div class="card-body text-center">
-          <h5 class="card-title mb-0">
-            <router-link to="/">Home</router-link>
-          </h5>
-          <div class="card-text text-black-50">Go back to the beginning</div>
-        </div>
-      </div>
-    </div>
-    <!-- End Router Links -->
+    <ul>
+      <li>
+        <button>
+          <router-link to="/Blog">Blog</router-link>
+        </button>
+      </li>
+      <li>
+        <button>
+          <router-link to="/Gallery">Pictures</router-link>
+        </button>
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -173,18 +62,18 @@ export default {
   background: #000000;
 }
 
-h3 {
-  margin: 40px 0 0;
-}
-ul {
+ul.gallery {
   list-style-type: none;
   padding: 0;
 }
-li {
+
+.gallery li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 10px;
+  border: solid 1px #333;
+  padding: 0.5rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
 }
-a {
-  color: #000000;
-}
+</style>
 </style>
