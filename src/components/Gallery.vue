@@ -8,7 +8,7 @@
         <img src="../assets/IMG_7805.JPG" alt="Welcome to Kathmandu" width="600" height="450" />
       </li> -->
       <!-- <li>
-        <img src="../assets/IMG_8028.JPG" alt="EBC Panorama"></li> -->
+      <img src="../assets/IMG_8028.JPG" alt="EBC Panorama"></li>-->
     </ul>
 
     <ul>
