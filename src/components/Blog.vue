@@ -1,30 +1,33 @@
 <template>
   <div class="blog">
     <h3>My Journey</h3>
+    <div class="pano">
+      <img src="../assets/IMG8028.jpg" class="img-fluid" />
+    </div>
     <p></p>
-    <ul>
-<img src="../assets/IMG8028.jpg">
-</ul>
-    <ul>
-      <li v-for="(blog,index) in blogs" :key="index">
-        <button v-on:click="getPost(blog)">{{ blog.title }}</button>
-      </li>
-    </ul>
-    <ul>
-      <li>
-        <button>
-          <router-link to="/Gallery">Pictures</router-link>
-        </button>
-      </li>
+    <div class="days">
+      <ul>
+        <li v-for="(blog,index) in blogs" :key="index">
+          <button v-on:click="getPost(blog)">{{ blog.title }}</button>
+        </li>
+      </ul>
+    </div>
+    <div class="button">
+      <ul>
+        <li>
+          <button>
+            <router-link to="/Gallery">Pictures</router-link>
+          </button>
+        </li>
 
-      <li>
-        <button>
-          <router-link to="/">Home</router-link>
-        </button>
-      </li>
-    </ul>
+        <li>
+          <button>
+            <router-link to="/">Home</router-link>
+          </button>
+        </li>
+      </ul>
+    </div>
   </div>
-
 </template>
 
 <script>
@@ -50,6 +53,18 @@ export default {
 <style scoped>
 .blog {
   background: #ffffff;
+}
+ul.button {
+  list-style-type: none;
+  padding: 0;
+}
+.button li {
+  display: inline-block;
+  margin: 10px;
+  border: solid 1px #333;
+  padding: 0.5rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 h3 {

@@ -27,21 +27,27 @@
     <div class="words" v-if="blog">
       <b-container align="left">{{ blog.entry }}</b-container>
     </div>
-<p></p>
-    <table align="center">
-      <tr>
-        <td>
-          <button>
-            <router-link to="/Blog">Blog</router-link>
-          </button>
-        </td>
-        <td>
-          <button>
-            <router-link to="/Gallery">Pictures</router-link>
-          </button>
-        </td>
-      </tr>
-    </table>
+
+<div class="button">
+    <ul>
+      <li>
+        <button>
+          <router-link to="/Blog">Blog</router-link>
+        </button>
+      </li>
+      <li>
+        <button>
+          <router-link to="/Gallery">Pictures</router-link>
+            </button>
+      </li>
+      <li>
+        <button>
+          <router-link to="/">Home</router-link>
+        </button>
+      </li>
+    </ul>
+    </div>
+     
   </div>
 </template>
 
@@ -86,6 +92,19 @@ ul.cities {
   padding: 0.5rem;
   width: 200px;
   min-height: 100px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+ul.button {
+  list-style-type: none;
+  padding: 0;
+}
+.button li {
+  display: inline-block;
+  margin: 10px;
+  border: solid 1px #333;
+  padding: 0.5rem;
   color: #fff;
   background: rgba(0, 0, 0, 0.7);
 }
