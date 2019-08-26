@@ -2,24 +2,29 @@
   <div class="blog">
     <h3>My Journey</h3>
     <p></p>
-        
+    <ul>
+<img src="../assets/IMG8028.jpg">
+</ul>
     <ul>
       <li v-for="(blog,index) in blogs" :key="index">
         <button v-on:click="getPost(blog)">{{ blog.title }}</button>
       </li>
     </ul>
-
-<ul>
-
+    <ul>
       <li>
         <button>
           <router-link to="/Gallery">Pictures</router-link>
         </button>
       </li>
+
+      <li>
+        <button>
+          <router-link to="/">Home</router-link>
+        </button>
+      </li>
     </ul>
-
-
   </div>
+
 </template>
 
 <script>
@@ -35,10 +40,9 @@ export default {
   methods: {
     getPost: function(blog) {
       console.log(blog);
-       this.$router.push({ name: "Post", params: { blog } });
+      this.$router.push({ name: "Post", params: { blog } });
     }
   }
-
 };
 </script>
 

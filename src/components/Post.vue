@@ -24,8 +24,10 @@
       </div>
     </div>
 
-    <div class="words" v-if="blog">{{ blog.entry }}</div>
-
+    <div class="words" v-if="blog">
+      <b-container align="left">{{ blog.entry }}</b-container>
+    </div>
+<p></p>
     <table align="center">
       <tr>
         <td>

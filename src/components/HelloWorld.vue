@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
-    <h5>In April 2018, I was part of the inaugural Climb2Cure team to go to Everest Base Camp (EBC) in the Nepalese Himalayas. It was an amazing experience and definitely one of the hardest things I've ever done. But the experience was truly a once in a lifetime experience and it definitely took my breath away in more ways than one.</h5>
+    <b-container>
+    <h5>In April 2018, I was part of the inaugural Climb2Cure team to go to Everest Base Camp (EBC) in the Nepalese Himalayas. It was an amazing experience and definitely one of the hardest things I've ever done. But the experience was truly a once in a lifetime experience and it definitely took my breath away in more ways than one.</h5></b-container>
     <ul>
       <li>
         <button>
@@ -13,6 +14,7 @@
         </button>
       </li>
     </ul>
+    <b-container>
     <header>
       <iframe
         title="vimeo-player"
@@ -23,6 +25,7 @@
         allowfullscreen
       ></iframe>
     </header>
+    </b-container>
 
   </div>
 </template>
@@ -41,9 +44,9 @@ export default {
 header {
   position: relative;
   background-color: black;
-  height: 75vh;
-  min-height: 25rem;
-  width: 100%;
+  /* height: 75vh; */
+  /* min-height: 25rem; */
+  /* width: 100%; */
   overflow: hidden;
 }
 

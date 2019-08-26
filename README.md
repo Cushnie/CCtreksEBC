@@ -93,3 +93,6 @@ I didn't get to do too much work on my page this week as I was focusing on the p
 
 0847h
 I figured out how to get my text & title on the post page so we're making some good progress. Now to get the weather icon picture set up as well as figure out how to get the Post.vue stuff to show up on the Blog.vue page so that the buttons to all the entries stay there & the user doesn't have to always click the "Blog" button at the bottom of the page. I know there's a way to do it & I'm reviewing my code from last quarter to see how I did it with my happy hour drink finder. I know this can be done!!! 
+
+1742h
+Got the pictures up. Added some blog entries. I think I'm almost done here. But again, I cannot figure out for the life of me how to get my "Post.vue" component to render on my "Blog.vue" component. Is this possible? I think so. Just need to step away & come back to it later. 
